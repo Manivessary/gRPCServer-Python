@@ -14,17 +14,18 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10grpcserver.proto\x12\ngrpcserver\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t2I\n\x07Greeter\x12>\n\x08SayHello\x12\x18.grpcserver.HelloRequest\x1a\x16.grpcserver.HelloReply\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10grpcserver.proto\x12\x08maralana\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t2E\n\x07Greeter\x12:\n\x08SayHello\x12\x16.maralana.HelloRequest\x1a\x14.maralana.HelloReply\"\x00\x42\'\n\x0c\x63om.maralanaB\x0fHelloWorldProtoP\x01\xa2\x02\x03HLWb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'grpcserver_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
-  DESCRIPTOR._options = None
-  _globals['_HELLOREQUEST']._serialized_start=32
-  _globals['_HELLOREQUEST']._serialized_end=60
-  _globals['_HELLOREPLY']._serialized_start=62
-  _globals['_HELLOREPLY']._serialized_end=91
-  _globals['_GREETER']._serialized_start=93
-  _globals['_GREETER']._serialized_end=166
+  _globals['DESCRIPTOR']._options = None
+  _globals['DESCRIPTOR']._serialized_options = b'\n\014com.maralanaB\017HelloWorldProtoP\001\242\002\003HLW'
+  _globals['_HELLOREQUEST']._serialized_start=30
+  _globals['_HELLOREQUEST']._serialized_end=58
+  _globals['_HELLOREPLY']._serialized_start=60
+  _globals['_HELLOREPLY']._serialized_end=89
+  _globals['_GREETER']._serialized_start=91
+  _globals['_GREETER']._serialized_end=160
 # @@protoc_insertion_point(module_scope)
